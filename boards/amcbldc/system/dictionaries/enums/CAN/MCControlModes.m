@@ -8,6 +8,7 @@ classdef MCControlModes < Simulink.IntEnumType
         SpeedVoltage(0x0A)
         SpeedCurrent(0x0B)
         Current(0x06)
+        Position (0x07)
         NotConfigured(0xB0)
         HWFault(0xA0)
     end

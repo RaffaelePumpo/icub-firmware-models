@@ -7,6 +7,7 @@ classdef MCControlModes < Simulink.IntEnumType
         OpenLoop(0x50)
         SpeedVoltage(0x0A)
         SpeedCurrent(0x0B)
+        Position(0x07)
         Current(0x06)
         NotConfigured(0xB0)
         HWFault(0xA0)

@@ -10,6 +10,7 @@ classdef MCControlModes < Simulink.IntEnumType
         Current(0x06)
         NotConfigured(0xB0)
         HWFault(0xA0)
+        Position(0x07)
     end
     methods (Static = true)
         function retVal = addClassNameToEnumNames()

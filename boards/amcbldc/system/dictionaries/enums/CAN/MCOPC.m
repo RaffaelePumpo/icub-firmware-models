@@ -8,6 +8,8 @@ classdef MCOPC < Simulink.IntEnumType
         Set_Current_PID(0x65)
         Set_Velocity_PID(0x69)
         Set_Motor_Config(0x77)
+        Set_Position_PID(0x70)
+
     end
     methods (Static = true)
         function retVal = addClassNameToEnumNames()
